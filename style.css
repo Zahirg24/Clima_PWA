@@ -1,0 +1,58 @@
+/*Paleta de colores 
+https://coolors.co/5075c7-658cb0-79a299-d5d887-dbd080-e0c879
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background: rgb(80,117,199);
+background: linear-gradient(180deg, rgba(80,117,199,1) 0%, rgba(121,162,153,1) 59%, rgba(213,216,135,1) 100%);
+}
+
+h1 { 
+    color:rgb(0, 10, 89) ;
+}
+
+p { 
+    color: rgb(255, 255, 255);
+    font-weight: 00;
+}
+#weatherContainer {
+background: rgba(255, 255, 255, 0.3);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#app {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#searchInput {
+    width: 75%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#searchButton {
+    padding: 10px;
+    font-size: 18px;
+    color: antiquewhite;
+    background-color: #293b67;
+    
+}
+
+#weatherContainer {
+    margin-top: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
